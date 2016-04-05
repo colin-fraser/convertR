@@ -21,8 +21,15 @@ Inside this package is a forest. The forest looks like this
 
 Along each edge is a conversion factor. A path is drawn between the units, and the associated conversion factors multiplied together. The input is multiplied by the product of the conversion factors. That's it.
 
+This design lets convertR make hundreds of different types of unit conversions only knowing a handful of conversion factors.
+
 The unit symbols and conversion factors are taken from [this Wikipedia entry](https://en.wikipedia.org/wiki/Conversion_of_units#Tables_of_conversion_factors).
 
 ## Installation
 At the moment, this requires the package [igraph](http://igraph.org/r/). That's okay, because that's a nice package.
 Then if you have devtools you can just go ```devtools::install_github('colin-fraser/convertR')```.
+
+## TODO
+- Add more units
+- Add English unit aliases
+- Maybe remove igraph dependency?
