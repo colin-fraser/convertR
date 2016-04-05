@@ -19,7 +19,7 @@ Inside this package is a forest. The forest looks like this
 ![Image of a graph]
 (https://raw.githubusercontent.com/colin-fraser/convertR/master/graph.png)
 
-Along each edge is a conversion factor. A path is drawn between the units, and the associated conversion factors multiplied together. The input is multiplied by the product of the conversion factors. That's it.
+Along each edge is a conversion factor. When `convert(number, from, to)` is called, a path is drawn from `from` to `to`, and the conversion factors along the path edges are multiplied together. `number` is multiplied by the product of the conversion factors. That's it.
 
 This design lets convertR make hundreds of different types of unit conversions only knowing a handful of conversion factors.
 
