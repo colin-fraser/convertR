@@ -45,3 +45,15 @@ convert <- function(number, from, to) {
   f <- prod(p$epath[[1]]$factor)
   return(number*f)
 }
+
+#' Print the list of available units
+#'
+#' @export
+available.units <- function() {
+  print(sort(igraph::V(g)$name))
+}
+
+#' @export
+get_g <- function() {
+  g
+}
