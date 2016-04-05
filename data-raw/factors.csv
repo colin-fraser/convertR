@@ -1,0 +1,27 @@
+tail,head,factor
+ft,in,12
+in,cm,2.54
+m,cm,100
+yd,ft,3
+mi,ft,5280
+km,m,1000
+h,min,60
+min,s,60
+d,h,24
+m,mm,1000
+kg,g,1000
+g,mg,1000
+lb,kg,0.45359237
+lb,gr,7000
+oz,g,28
+lb t,gr,5760
+t,kg,1000
+st,lb,14
+cal,J,4.1868
+Cal,cal,1000
+kWh,J,3600000
+BTU,J,1055.056
+MBTU,BTU,1000
+therm,BTU,100000
+MWh,kWh,1000
+s,ms,1000
