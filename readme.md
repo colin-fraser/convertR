@@ -10,7 +10,7 @@ This package just gives you one function: `convert`.
 > convert(5:10, 'kWh', 'therm')
 [1] 0.1706071 0.2047285 0.2388499 0.2729713 0.3070927 0.3412141
 > convert(933394, 'km', 'min')
-Error in convert(933394, "mi", "d") : 
+Error in convert(933394, "km", "min") : 
   No conversion path found between units
 ```
 
