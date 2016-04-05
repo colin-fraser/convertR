@@ -7,7 +7,7 @@ Authors@R: person("Colin", "Fraser", email = "colin.r.fraser@gmail.com",
   role = c("aut", "cre"))
 Description: Does unit conversions.
 License: MIT
-Depends:
+Imports:
     igraph
 RoxygenNote: 5.0.1
 Suggests: testthat
